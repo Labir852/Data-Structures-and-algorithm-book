@@ -1,14 +1,18 @@
 #include<stdio.h>
-#include<math.h>
 int main()
 {
-    int i,n,S=0;
+    int i,j,n;
     scanf("%d",&n);
-    for ( i = 1; i < n; i++)
+    for(i=1;i<=n;i++)
     {
-        S+=pow(i,2);
+        for(j=n;j>=1;j--)
+        {
+            if(j<i)
+            printf(".");
+            else
+            printf("*");
+        }
+        printf("\n");
     }
-    printf("%d\n",S);
-    
     return 0;
 }
