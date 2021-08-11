@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    // counting series for series for (1+(2+3*4)+(5+(6*7)+(8*9*10))+.....+nth term)
     int n,i,j,k,final=0,mul=1,v=1 ;
     scanf("%d",&n);
     for ( i = 1; i <= n; i++)
