@@ -22,7 +22,7 @@ int main()
          ++k;
          }  
       }
-      for(j=space+k;j<=(2*rows-1);++j)
+   for(j=space+k;j<=(2*rows-1);++j)
 	{
 		printf(".");
 	}
